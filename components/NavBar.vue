@@ -2,7 +2,7 @@
   <div class="container">
     <nav class="navbar">
       <div class="navbar-brand">
-        <a class="navbar-item" href="http://hmatalonga.com/greenhub">
+        <a class="navbar-item" href="http://greenhub.hmatalonga.com/">
           <logo menu="true"/>
         </a>
 
