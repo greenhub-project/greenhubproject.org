@@ -1,0 +1,28 @@
+# GreenHub Website
+
+This repository contains the source code for the GreenHub project website.
+
+It is built with [Nuxt.js](https://nuxtjs.org/).
+
+## Build Setup
+
+``` bash
+# install dependencies
+$ npm install # Or yarn install
+
+# serve with hot reload at localhost:3000
+$ npm run dev
+
+# build for production and launch server
+$ npm run build
+$ npm start
+
+# generate static project
+$ npm run generate
+```
+
+For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+
+## Style Convention
+
+It follows the **BEM** methodology. For more information, checkout the [BEM guidelines](https://en.bem.info/methodology/quick-start/).
