@@ -36,6 +36,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    vendor: ['numeral'],
     /*
     ** Run ESLint on save
     */

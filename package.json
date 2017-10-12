@@ -17,6 +17,7 @@
     "axios": "^0.16.2",
     "bulma": "^0.5.3",
     "font-awesome": "^4.7.0",
+    "numeral": "^2.0.6",
     "nuxt": "^1.0.0-rc11",
     "smoothscroll": "^0.3.0"
   },

@@ -23,6 +23,7 @@
 
 <script>
 import axios from 'axios'
+import numeral from 'numeral'
 import status from '~/static/status.json'
 
 export default {
@@ -31,9 +32,8 @@ export default {
   data () {
     return {
       url: this.sanitizeUrl('api/v1/public/count/'),
-      devices: 0,
-      uploads: 0,
-      users: 0
+      devices: '0',
+      uploads: '0'
     }
   },
 
@@ -50,17 +50,12 @@ export default {
     getData () {
       axios.get(this.url + 'devices')
         .then(response => {
-          this.devices = response.data
+          this.devices = numeral(response.data).format('0.0a')
         })
         .catch(error => console.log(error))
       axios.get(this.url + 'samples')
         .then(response => {
-          this.uploads = response.data
-        })
-        .catch(error => console.log(error))
-      axios.get(this.url + 'users')
-        .then(response => {
-          this.users = response.data
+          this.uploads = numeral(response.data).format('0.0a')
         })
         .catch(error => console.log(error))
     }
