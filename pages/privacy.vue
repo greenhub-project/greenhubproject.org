@@ -23,7 +23,7 @@
             <p>“Sample” is one instance of a collection of data that includes information such as battery current level, battery voltage, battery temperature, network connectivity details, sensors state (either if they are switched on or off), screen state (on or off), timezone, memory and CPU usage, etc.</p>
             <p>The samples collected via mobile app are sent automatically to our Services. The user may choose to upload the information manually or change on the mobile app preferences the interval of the automatic upload.</p>
             <p>Note that all data collected is purely about the device’s performance and power behavior. No personal user information is collected at any given moment. The mobile devices are identified on the Services by a randomly alphanumeric identifier used to distinguish each device in order to process the data.</p>
-            <p>For a complete description of the data collected please refer to our documentation <nuxt-link to="/docs/intro/overview">here</nuxt-link>.</p>
+            <p>For a complete description of the data collected please refer to our documentation <a href="https://docs.greenhubproject.org">here</a>.</p>
             <h3 class="why">Why do we collect this?</h3>
             <ul>
               <li>Our strategies to analyze energy consumption behaviors rely on the use of real-world data.</li>
@@ -66,7 +66,7 @@ Certain pages on our site may set other third party cookies. For example, we may
             <h3>Do Not Track</h3>
             <p>The Services are not designed to respond to “do not track” signals sent by some browsers.</p>
             <h2>Changes</h2>
-            <p>We may change this Privacy Policy from time to time. If we do, we will let you know by revising the date at the top of the policy. If we make a change to this policy that, in our sole discretion, is material, we will provide you with additional notice (such as adding a statement to <a href="http://greenhub.hmatalonga.com/blog">http://greenhub.hmatalonga.com/blog</a>, the blog page of the project or sending you a notification via our mobile app GreenHub BatteryHub). We encourage you to review the Privacy Policy whenever you access or use our Services or otherwise interact with us to stay informed about our information practices and the ways you can help protect your privacy. If you continue to use our Services after Privacy Policy changes go into effect, you consent to the revised policy.</p>
+            <p>We may change this Privacy Policy from time to time. If we do, we will let you know by revising the date at the top of the policy. If we make a change to this policy that, in our sole discretion, is material, we will provide you with additional notice (such as adding a statement to <a href="https://medium.com/greenhub-blog">https://medium.com/greenhub-blog</a>, the blog page of the project or sending you a notification via our mobile app GreenHub BatteryHub). We encourage you to review the Privacy Policy whenever you access or use our Services or otherwise interact with us to stay informed about our information practices and the ways you can help protect your privacy. If you continue to use our Services after Privacy Policy changes go into effect, you consent to the revised policy.</p>
             <h2>Contact Us</h2>
             <p>If you have any questions about this Privacy Policy, please email <a href="mailto:greenhub@di.ubi.pt">greenhub@di.ubi.pt</a>.</p>
           </div>

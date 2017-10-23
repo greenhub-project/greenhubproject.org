@@ -3,9 +3,8 @@
     <div class="container">
       <nav>
         <nuxt-link to="/about">About</nuxt-link>
-        <nuxt-link to="/docs/intro/overview">Docs</nuxt-link>
-        <nuxt-link to="/blog">Blog</nuxt-link>
-        <a href="https://github.com/hmatalonga/greenhub/wiki">Wiki</a>
+        <a href="https://docs.greenhubproject.org">Docs</a>
+        <a href="https://medium.com/greenhub-blog">Blog</a>
       </nav>
       <div class="columns">
         <div class="column is-half is-offset-half">

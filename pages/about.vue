@@ -33,7 +33,7 @@
 
         <h3 id="greenhub-lumberjack">GreenHub Lumberjack</h3>
         <p>It is a command line app for interacting with the GreenHub REST API. It has many commands to quickly query the GreenHub API.</p>
-        <p>For detailed documentation visit <a href="https://github.com/hmatalonga/greenhub-lumberjack">GreenHub Lumberjack Docs</a>.</p>
+        <p>For detailed documentation visit <a href="https://github.com/greenhub-project/lumberjack">GreenHub Lumberjack Docs</a>.</p>
       </div>
     </section>
 

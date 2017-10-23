@@ -23,18 +23,8 @@
         <div class="navbar-start">
           <nuxt-link class="navbar-item" to="/">Home</nuxt-link>
           <nuxt-link class="navbar-item" to="/about">About</nuxt-link>
-          <div class="navbar-item has-dropdown is-hoverable">
-            <nuxt-link class="navbar-link" to="/docs/intro/overview">
-              Docs
-            </nuxt-link>
-            <div class="navbar-dropdown">
-              <nuxt-link class="navbar-item" to="/docs/intro/overview">Introduction</nuxt-link>
-              <nuxt-link class="navbar-item" to="/docs/architecture-concepts/workflow">Architecture Concepts</nuxt-link>
-              <nuxt-link class="navbar-item" to="/docs/api">API</nuxt-link>
-            </div>
-          </div>
-          <nuxt-link class="navbar-item" to="/blog">Blog</nuxt-link>
-          <a class="navbar-item" href="https://github.com/hmatalonga/greenhub/wiki">Wiki</a>
+          <a class="navbar-item" href="https://docs.greenhubproject.org">Docs</a>
+          <a class="navbar-item" href="https://medium.com/greenhub-blog">Blog</a>
         </div>
 
         <div class="navbar-end">
@@ -43,13 +33,13 @@
               Ecosystem
             </a>
             <div class="navbar-dropdown">
-              <a class="navbar-item" href="https://github.com/hmatalonga/greenhub" target="_blank">
+              <a class="navbar-item" href="https://github.com/greenhub-project/batteryhub" target="_blank">
                 GreenHub BatteryHub
               </a>
-              <a class="navbar-item" href="https://greenhub.di.ubi.pt" target="_blank">
+              <a class="navbar-item" href="https://github.com/greenhub-project/farmer" target="_blank">
                 GreenHub Farmer
               </a>
-              <a class="navbar-item" href="https://github.com/hmatalonga/greenhub-lumberjack" target="_blank">
+              <a class="navbar-item" href="https://github.com/greenhub-project/lumberjack" target="_blank">
                 GreenHub Lumberjack
               </a>
             </div>
@@ -61,9 +51,9 @@
                   class="button"
                   data-social-network="Twitter"
                   data-social-action="tweet"
-                  data-social-target="http://hmatalonga.com/greenhub"
+                  data-social-target="https://greenhubproject.org"
                   target="_blank"
-                  href="https://twitter.com/intent/tweet?text=Greenhub: A collaborative approach to power consumption analysis of Android devices&url=http://hmatalonga.com/greenhub&via=hmatalonga">
+                  href="https://twitter.com/intent/tweet?text=Greenhub: A collaborative approach to power consumption analysis of Android devices&url=https://greenhubproject.org&via=hmatalonga">
                   <span class="icon">
                     <i class="fa fa-twitter"></i>
                   </span>

@@ -8,9 +8,8 @@
               Docs
             </p>
             <ul class="menu-list">
-              <li><nuxt-link to="/docs/intro/overview">Introduction</nuxt-link></li>
-              <li><nuxt-link to="/docs/architecture-concepts/workflow">Architure Concepts</nuxt-link></li>
-              <li><nuxt-link to="/docs/api">API</nuxt-link></li>
+              <li><a href="https://docs.greenhubproject.org">Introduction</a></li>
+              <li><a href="https://docs.greenhubproject.org/api.html">API</a></li>
             </ul>
           </aside>
         </div>
@@ -20,9 +19,9 @@
               Ecosystem
             </p>
             <ul class="menu-list">
-              <li><a href="https://github.com/hmatalonga/greenhub">GreenHub BatteryHub</a></li>
-              <li><a href="https://greenhub.di.ubi.pt">GreenHub Farmer</a></li>
-              <li><a href="https://github.com/hmatalonga/greenhub-lumberjack">GreenHub Lumberjack</a></li>
+              <li><a href="https://github.com/greenhub-project/lumberjack">GreenHub BatteryHub</a></li>
+              <li><a href="https://github.com/greenhub-project/farmer">GreenHub Farmer</a></li>
+              <li><a href="https://github.com/greenhub-project/lumberjack">GreenHub Lumberjack</a></li>
             </ul>
           </aside>
         </div>
@@ -32,9 +31,8 @@
               More
             </p>
             <ul class="menu-list">
-              <li><nuxt-link to="/blog">Blog</nuxt-link></li>
+              <li><a href="https://medium.com/greenhub-blog">Blog</a></li>
               <li><nuxt-link to="/privacy">Privacy Policy</nuxt-link></li>
-              <li><a href="https://github.com/hmatalonga/greenhub/wiki">Wiki</a></li>
             </ul>
           </aside>
         </div>
