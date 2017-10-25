@@ -2,11 +2,11 @@
   <div class="container">
     <nav class="navbar">
       <div class="navbar-brand">
-        <a class="navbar-item" href="http://greenhub.hmatalonga.com/">
+        <a class="navbar-item" href="https://greenhubproject.org">
           <logo menu="true"/>
         </a>
 
-        <a class="navbar-item is-hidden-desktop" href="https://github.com/hmatalonga/greenhub" target="_blank">
+        <a class="navbar-item is-hidden-desktop" href="https://github.com/greenhub-project" target="_blank">
           <span class="icon" style="color: #333;">
             <i class="fa fa-github"></i>
           </span>
