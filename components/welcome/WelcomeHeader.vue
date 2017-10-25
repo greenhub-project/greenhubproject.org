@@ -20,9 +20,6 @@
                 <img class="img-responsive center-block" src="~static/images/en_badge_web_generic.png" alt="GreenHub Google Play">
               </a>
             </p>
-            <p>
-              <span class="welcome__version">Now available!</span>
-            </p>
           </div>
           <div id="welcome__scroll-down" class="welcome__navigate">
             <span class="fa-stack fa-lg">
