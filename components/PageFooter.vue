@@ -19,7 +19,7 @@
               Ecosystem
             </p>
             <ul class="menu-list">
-              <li><a href="https://github.com/greenhub-project/lumberjack">GreenHub BatteryHub</a></li>
+              <li><a href="https://github.com/greenhub-project/batteryhub">GreenHub BatteryHub</a></li>
               <li><a href="https://github.com/greenhub-project/farmer">GreenHub Farmer</a></li>
               <li><a href="https://github.com/greenhub-project/lumberjack">GreenHub Lumberjack</a></li>
             </ul>
@@ -42,7 +42,7 @@
         <div class="column">
           <logo margin="true">
             <p class="love" slot="love">Made with ♥ in Portugal</p>
-            <p class="copyright" slot="copyright">2017 GreenHub</p>
+            <p class="copyright" slot="copyright">2018 GreenHub</p>
           </logo>
         </div>
       </div>
