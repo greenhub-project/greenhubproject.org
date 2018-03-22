@@ -48,12 +48,12 @@ export default {
       return status.server.substring(-1) === '/' ? status.server + path : status.server + '/' + path
     },
     getData () {
-      axios.get(this.url + 'devices')
+      axios.get(this.url + 'devices', { timeout: 5000 })
         .then(response => {
           this.devices = numeral(response.data).format('0.0a')
         })
         .catch(error => console.log(error))
-      axios.get(this.url + 'samples')
+      axios.get(this.url + 'samples', { timeout: 10000 })
         .then(response => {
           this.uploads = numeral(response.data).format('0.0a')
         })
