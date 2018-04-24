@@ -31,9 +31,9 @@
               More
             </p>
             <ul class="menu-list">
-              <li><a href="https://medium.com/greenhub-blog">Blog</a></li>
               <li><a href="https://greenhub-group.slack.com/">Slack</a></li>
               <li><nuxt-link to="/privacy">Privacy Policy</nuxt-link></li>
+              <li><a href="http://greenlab.di.uminho.pt/">Green Software Lab</a></li>
             </ul>
           </aside>
         </div>
