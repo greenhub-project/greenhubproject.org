@@ -1,8 +1,4 @@
 {
-  "name": "greenhub-homepage",
-  "version": "1.0.0",
-  "description": "GreenHub's homepage",
-  "author": "Hugo Matalonga <hugo@hmatalonga.com>",
   "private": true,
   "scripts": {
     "dev": "nuxt",

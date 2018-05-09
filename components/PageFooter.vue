@@ -9,7 +9,7 @@
             </p>
             <ul class="menu-list">
               <li><a href="https://docs.greenhubproject.org">Introduction</a></li>
-              <li><a href="https://docs.greenhubproject.org/api.html">API</a></li>
+              <li><a href="https://docs.greenhubproject.org/api-reference/">API</a></li>
             </ul>
           </aside>
         </div>
