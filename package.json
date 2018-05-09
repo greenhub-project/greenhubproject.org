@@ -10,15 +10,15 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint",
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
+    "precommit": "npm run lint"
   },
   "dependencies": {
+    "@nuxtjs/google-analytics": "^2.0.2",
     "axios": "^0.16.2",
     "bulma": "^0.5.3",
     "font-awesome": "^4.7.0",
     "numeral": "^2.0.6",
-    "nuxt": "^1.0.0-rc11",
+    "nuxt": "^1.4.0",
     "smoothscroll": "^0.3.0"
   },
   "devDependencies": {
@@ -32,7 +32,6 @@
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
     "node-sass": "^4.5.3",
-    "push-dir": "^0.4.1",
     "sass-loader": "^6.0.6"
   }
 }
