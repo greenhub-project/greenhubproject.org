@@ -16,10 +16,13 @@ module.exports = {
     ]
   },
   /**
-   * Plugins
+   * Modules
   */
-  plugins: [
-    { src: '~plugins/ga.js', ssr: false }
+  modules: [
+    // Simple usage
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-49971884-5'
+    }]
   ],
   /*
   ** Global CSS
