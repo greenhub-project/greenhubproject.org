@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - 'lts/*'
+
+cache: yarn
+
+script: yarn generate
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  local-dir: dist
+  fqdn: greenhubproject.org
+  on:
+    branch: master
