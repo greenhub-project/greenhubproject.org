@@ -26,8 +26,13 @@ module.exports = {
       }
     ]
   },
-  /** Plugins */
-  plugins: [{ src: '~plugins/ga.js', ssr: false }],
+  /* 
+  ** Modules 
+  */
+  modules: ['@nuxtjs/google-gtag'],
+  'google-gtag': {
+    id: 'UA-49971884-4'
+  },
   /*
   ** Global CSS
   */
