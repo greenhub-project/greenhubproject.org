@@ -26,18 +26,8 @@ module.exports = {
       }
     ]
   },
-  /**
-   * Modules
-   */
-  modules: [
-    // Simple usage
-    [
-      '@nuxtjs/google-analytics',
-      {
-        id: 'UA-49971884-4'
-      }
-    ]
-  ],
+  /** Plugins */
+  plugins: [{ src: '~plugins/ga.js', ssr: false }],
   /*
   ** Global CSS
   */
