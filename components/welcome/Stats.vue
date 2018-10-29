@@ -45,15 +45,19 @@ export default {
 
   methods: {
     sanitizeUrl (path) {
-      return status.server.substring(-1) === '/' ? status.server + path : status.server + '/' + path
+      return status.server.substring(-1) === '/'
+        ? status.server + path
+        : status.server + '/' + path
     },
     getData () {
-      axios.get(this.url + 'devices', { timeout: 5000 })
+      axios
+        .get(this.url + 'devices', { timeout: 7500 })
         .then(response => {
           this.devices = numeral(response.data).format('0.0a')
         })
         .catch(error => console.log(error))
-      axios.get(this.url + 'samples', { timeout: 10000 })
+      axios
+        .get(this.url + 'samples', { timeout: 20000 })
         .then(response => {
           this.uploads = numeral(response.data).format('0.0a')
         })
