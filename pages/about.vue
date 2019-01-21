@@ -115,7 +115,7 @@
                 href="https://www.inesctec.pt/pt/pessoas/marco-linhares-couto"
                 target="_blank"
               >Marco Couto</a>
-              <span class="university">INESC TEC</span>
+              <span class="university">INESC Tec</span>
             </div>
           </div>
           <div class="column">
@@ -126,7 +126,7 @@
                 href="https://www.inesctec.pt/en/people/rui-alexandre-pereira"
                 target="_blank"
               >Rui Pereira</a>
-              <span class="university">INESC TEC</span>
+              <span class="university">INESC Tec</span>
             </div>
           </div>
           <div class="column">
@@ -154,23 +154,23 @@
 </template>
 
 <script>
-import PageHeader from '~/components/PageHeader.vue'
+import PageHeader from "~/components/PageHeader.vue";
 
 export default {
-  name: 'about',
+  name: "about",
 
-  layout: 'page',
+  layout: "page",
 
   components: {
     PageHeader
   },
 
-  head () {
+  head() {
     return {
-      title: 'GreenHub - About'
-    }
+      title: "GreenHub - About"
+    };
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>
