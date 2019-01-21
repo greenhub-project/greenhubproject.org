@@ -74,6 +74,7 @@
             <div class="details">
               <a class="name" href="https://eden.dei.uc.pt/~bcabral/" target="_blank">Bruno Cabral</a>
               <span class="university">University of Coimbra</span>
+              <span class="university">Professor</span>
             </div>
           </div>
           <div class="column">
@@ -85,6 +86,7 @@
                 target="_blank"
               >Fernado Castor</a>
               <span class="university">Federal University of Pernambuco</span>
+              <span class="university">Professor</span>
             </div>
           </div>
           <div class="column">
@@ -92,6 +94,7 @@
             <div class="details">
               <a class="name" href="http://hmatalonga.com" target="_blank">Hugo Matalonga</a>
               <span class="university">University of Minho</span>
+              <span class="university">MSc Student</span>
             </div>
           </div>
         </div>
@@ -105,6 +108,7 @@
                 target="_blank"
               >João Paulo Fernandes</a>
               <span class="university">University of Coimbra</span>
+              <span class="university">Professor</span>
             </div>
           </div>
           <div class="column">
@@ -116,6 +120,7 @@
                 target="_blank"
               >Marco Couto</a>
               <span class="university">INESC Tec</span>
+              <span class="university">PhD Researcher</span>
             </div>
           </div>
           <div class="column">
@@ -127,6 +132,7 @@
                 target="_blank"
               >Rui Pereira</a>
               <span class="university">INESC Tec</span>
+              <span class="university">Post-Doctoral Researcher</span>
             </div>
           </div>
           <div class="column">
@@ -138,6 +144,7 @@
                 target="_blank"
               >Simão Melo de Sousa</a>
               <span class="university">University of Beira Interior</span>
+              <span class="university">Professor</span>
             </div>
           </div>
         </div>
@@ -154,23 +161,23 @@
 </template>
 
 <script>
-import PageHeader from "~/components/PageHeader.vue";
+import PageHeader from '~/components/PageHeader.vue'
 
 export default {
-  name: "about",
+  name: 'about',
 
-  layout: "page",
+  layout: 'page',
 
   components: {
     PageHeader
   },
 
-  head() {
+  head () {
     return {
-      title: "GreenHub - About"
-    };
+      title: 'GreenHub - About'
+    }
   }
-};
+}
 </script>
 
 <style lang="scss" scoped>
