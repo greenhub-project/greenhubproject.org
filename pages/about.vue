@@ -5,12 +5,19 @@
     <section id="what-is-greenhub" class="section">
       <div class="content">
         <h1>What is GreenHub?</h1>
-        <p><strong>GreenHub</strong> is a collaborative approach to power consumption analysis of Android devices.</p>
-        <p>It is a platform developed in the context of <span class="underline">Green Computing</span> research field.</p>
+        <p>
+          <strong>GreenHub</strong> is a collaborative approach to power consumption analysis of Android devices.
+        </p>
+        <p>
+          It is a platform developed in the context of
+          <span class="underline">Green Computing</span> research field.
+        </p>
         <p>The project is organized in three distinct modules:</p>
         <ul>
           <li>
-            <a href="https://play.google.com/store/apps/details?id=com.hmatalonga.greenhub">GreenHub BatteryHub</a> - Android app
+            <a
+              href="https://play.google.com/store/apps/details?id=com.hmatalonga.greenhub"
+            >GreenHub BatteryHub</a> - Android app
           </li>
           <li>
             <a href="https://greenhub.di.ubi.pt">GreenHub Farmer</a> - Backend web app + REST API
@@ -25,15 +32,28 @@
         <p>GreenHub BatteryHub is an Android battery monitor app, proving the user with useful information in real-time about their device and its battery such as instant energy consumption, temperature, voltage, battery's health, network's details, memory details, etc.</p>
         <p>It also displays statistics charts with the history of battery level, temperature and voltage.</p>
         <p>The app also collects samples of various details and uploads them to the web server periodically.</p>
-        <p>At the moment GreenHub BatteryHub is in Release Candidate! Feel free to try it out, download the app on Google Play <a href="https://play.google.com/store/apps/details?id=com.hmatalonga.greenhub">here</a>.</p>
+        <p>
+          At the moment GreenHub BatteryHub is in Release Candidate! Feel free to try it out, download the app on Google Play
+          <a
+            href="https://play.google.com/store/apps/details?id=com.hmatalonga.greenhub"
+          >here</a>.
+        </p>
 
         <h3 id="greenhub-farmer">GreenHub Farmer</h3>
         <p>It is the backend component of the platform which stores all the data collect via the mobile app. There is a web app where you can find a dashboard with further statistics, charts and perform detailed searches.</p>
-        <p>You can access GreenHub Farmer <a href="https://greenhub.di.ubi.pt" target="_blank">here</a>.</p>
+        <p>
+          You can access GreenHub Farmer
+          <a href="https://greenhub.di.ubi.pt" target="_blank">here</a>.
+        </p>
 
         <h3 id="greenhub-lumberjack">GreenHub Lumberjack</h3>
         <p>It is a command line app for interacting with the GreenHub REST API. It has many commands to quickly query the GreenHub API.</p>
-        <p>For detailed documentation visit <a href="https://github.com/greenhub-project/lumberjack">GreenHub Lumberjack Docs</a>.</p>
+        <p>
+          For detailed documentation visit
+          <a
+            href="https://github.com/greenhub-project/lumberjack"
+          >GreenHub Lumberjack Docs</a>.
+        </p>
       </div>
     </section>
 
@@ -59,7 +79,11 @@
           <div class="column">
             <img class="image" src="~static/images/team/fernando.jpg" alt="Fernando Castor">
             <div class="details">
-              <a class="name" href="https://sites.google.com/a/cin.ufpe.br/castor/" target="_blank">Fernado Castor</a>
+              <a
+                class="name"
+                href="https://sites.google.com/a/cin.ufpe.br/castor/"
+                target="_blank"
+              >Fernado Castor</a>
               <span class="university">Federal University of Pernambuco</span>
             </div>
           </div>
@@ -67,20 +91,52 @@
             <img class="image" src="~static/images/team/hugo.jpg" alt="Hugo Matalonga">
             <div class="details">
               <a class="name" href="http://hmatalonga.com" target="_blank">Hugo Matalonga</a>
+              <span class="university">University of Minho</span>
+            </div>
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column">
+            <img class="image" src="~static/images/team/jpaulo.jpg" alt="João Paulo Fernandes">
+            <div class="details">
+              <a
+                class="name"
+                href="https://eden.dei.uc.pt/~jpf/Site/Home.html"
+                target="_blank"
+              >João Paulo Fernandes</a>
               <span class="university">University of Coimbra</span>
             </div>
           </div>
           <div class="column">
-            <img class="image" src="~static/images/team/jpaulo.jpg" alt="João Paulo Fernandes">
+            <img class="image" src="~static/images/team/marco.jpg" alt="Marco Couto">
             <div class="details">
-              <a class="name" href="https://eden.dei.uc.pt/~jpf/Site/Home.html" target="_blank">João Paulo Fernandes</a>
-              <span class="university">University of Coimbra</span>
+              <a
+                class="name"
+                href="https://www.inesctec.pt/pt/pessoas/marco-linhares-couto"
+                target="_blank"
+              >Marco Couto</a>
+              <span class="university">INESC TEC</span>
+            </div>
+          </div>
+          <div class="column">
+            <img class="image" src="~static/images/team/rui.jpg" alt="Rui Pereira">
+            <div class="details">
+              <a
+                class="name"
+                href="https://www.inesctec.pt/en/people/rui-alexandre-pereira"
+                target="_blank"
+              >Rui Pereira</a>
+              <span class="university">INESC TEC</span>
             </div>
           </div>
           <div class="column">
             <img class="image" src="~static/images/team/simao.jpg" alt="Simão Melo de Sousa">
             <div class="details">
-              <a class="name" href="https://www.di.ubi.pt/~desousa/" target="_blank">Simão Melo de Sousa</a>
+              <a
+                class="name"
+                href="https://www.di.ubi.pt/~desousa/"
+                target="_blank"
+              >Simão Melo de Sousa</a>
               <span class="university">University of Beira Interior</span>
             </div>
           </div>
@@ -88,7 +144,10 @@
       </div>
     </section>
 
-    <p class="small">Photo by <a href="https://unsplash.com/@carminu">Carmine De Fazio</a>.</p>
+    <p class="small">
+      Photo by
+      <a href="https://unsplash.com/@carminu">Carmine De Fazio</a>.
+    </p>
 
     <page-footer/>
   </div>
@@ -115,41 +174,41 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .small {
-    font-size: 0.8rem;
+.small {
+  font-size: 0.8rem;
+}
+
+.image {
+  width: 180px;
+  height: 180px;
+  margin: 20px auto;
+  border-radius: 50%;
+  filter: grayscale(1);
+}
+
+.details {
+  text-align: center;
+
+  a,
+  span {
+    display: block;
   }
 
-  .image {
-    width: 180px;
-    height: 180px;
-    margin: 20px auto;
-    border-radius: 50%;
-    filter: grayscale(1.0);
+  .name {
+    font-weight: 700;
+    color: #363636;
   }
-
-  .details {
-    text-align: center;
-
-    a,
-    span {
-      display: block;
-    }
-
-    .name {
-      font-weight: 700;
-      color: #363636;
-    }
-    .name:hover {
-      text-decoration: underline;
-    }
-
-    .university {
-      font-size: small;
-      color: #666;
-    }
-  }
-
-  .underline {
+  .name:hover {
     text-decoration: underline;
   }
+
+  .university {
+    font-size: small;
+    color: #666;
+  }
+}
+
+.underline {
+  text-decoration: underline;
+}
 </style>

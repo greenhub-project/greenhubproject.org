@@ -2,9 +2,9 @@ language: node_js
 node_js:
   - 'lts/*'
 
-cache: yarn
+cache: npm
 
-script: yarn run generate
+script: npm run generate
 
 deploy:
   provider: pages
