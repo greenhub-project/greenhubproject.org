@@ -1,59 +1,60 @@
+const pkg = require('./package')
+
 module.exports = {
+  mode: 'universal',
+
   /*
   ** Headers of the page
   */
   head: {
-    title: 'GreenHub',
+    title: pkg.name,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      {
-        hid: 'description',
-        name: 'description',
-        content:
-          'A collaborative approach to power consumption analysis of Android devices'
-      },
-      {
-        keywords:
-          'GreenHub,Android,Battery Saver,Battery Monitor,Collaborative,Power consumption'
-      }
+      { hid: 'description', name: 'description', content: pkg.description }
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Lato|Montserrat|Muli'
-      }
-    ]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
-  /* 
-  ** Modules 
+
+  /*
+  ** Customize the progress-bar color
   */
-  modules: ['@nuxtjs/google-gtag'],
-  'google-gtag': {
-    id: 'UA-49971884-4'
-  },
+  loading: { color: '#fff' },
+
   /*
   ** Global CSS
   */
-  css: [
-    { src: 'bulma/css/bulma.css', lang: 'css' },
-    { src: 'font-awesome/css/font-awesome.css', lang: 'css' }
+  css: ['~/assets/css/tailwind.css'],
+
+  /*
+  ** Plugins to load before mounting the App
+  */
+  plugins: [],
+
+  /*
+  ** Nuxt.js modules
+  */
+  modules: [
+    // Doc: https://axios.nuxtjs.org/usage
+    '@nuxtjs/axios'
   ],
   /*
-  ** Customize the progress bar color
+  ** Axios module configuration
   */
-  loading: { color: '#3B8070' },
+  axios: {
+    // See https://github.com/nuxt-community/axios-module#options
+  },
+
   /*
   ** Build configuration
   */
   build: {
-    vendor: ['numeral'],
     /*
-    ** Run ESLint on save
+    ** You can extend webpack config here
     */
-    extend (config, { isDev, isClient }) {
-      if (isDev && isClient) {
+    extend(config, ctx) {
+      // Run ESLint on save
+      if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({
           enforce: 'pre',
           test: /\.(js|vue)$/,

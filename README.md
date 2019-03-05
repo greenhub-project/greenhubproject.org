@@ -1,15 +1,12 @@
-# GreenHub Website
+# greenhubproject.org
 
-[![Build Status](https://travis-ci.org/greenhub-project/greenhubproject.org.svg?branch=master)](https://travis-ci.org/greenhub-project/greenhubproject.org)
-
-This repository contains the source code for the GreenHub project website.
-
-It is built with [Nuxt.js](https://nuxtjs.org/).
+> My cat&#39;s meow Nuxt.js project
 
 ## Build Setup
+
 ``` bash
 # install dependencies
-$ npm install # Or yarn install
+$ npm install
 
 # serve with hot reload at localhost:3000
 $ npm run dev
@@ -22,7 +19,4 @@ $ npm start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
-
-## Style Convention
-It follows the **BEM** methodology. For more information, checkout the [BEM guidelines](https://en.bem.info/methodology/quick-start/).
+For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).

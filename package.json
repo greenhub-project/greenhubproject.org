@@ -1,33 +1,39 @@
 {
+  "name": "greenhubproject.org",
+  "version": "1.0.0",
+  "description": "My cat&#39;s meow Nuxt.js project",
+  "author": "Hugo Matalonga",
   "private": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "lint": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "@nuxtjs/google-gtag": "^1.0.3",
-    "axios": "^0.16.2",
-    "bulma": "^0.5.3",
-    "font-awesome": "^4.7.0",
-    "numeral": "^2.0.6",
-    "nuxt": "^1.4.5",
-    "smoothscroll": "^0.3.0"
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.4.0",
+    "@nuxtjs/axios": "^5.3.6"
   },
   "devDependencies": {
-    "babel-eslint": "^7.2.3",
-    "eslint": "^4.3.0",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-loader": "^1.9.0",
-    "eslint-plugin-html": "^3.1.1",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-node": "^5.1.1",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "node-sass": "^4.5.3",
-    "sass-loader": "^6.0.6"
+    "nodemon": "^1.18.9",
+    "@nuxtjs/eslint-config": "^0.0.1",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^5.0.1",
+    "eslint-config-standard": ">=12.0.0",
+    "eslint-plugin-import": ">=2.14.0",
+    "eslint-plugin-jest": ">=21.24.1",
+    "eslint-plugin-node": ">=7.0.1",
+    "eslint-plugin-promise": ">=4.0.1",
+    "eslint-plugin-standard": ">=4.0.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "2.6.2",
+    "prettier": "1.14.3",
+    "autoprefixer": "^8.6.4",
+    "tailwindcss": "^0.7.0"
   }
 }
