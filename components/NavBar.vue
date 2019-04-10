@@ -23,6 +23,7 @@
         <div class="navbar-start">
           <nuxt-link class="navbar-item" to="/">Home</nuxt-link>
           <nuxt-link class="navbar-item" to="/about">About</nuxt-link>
+          <nuxt-link class="navbar-item" to="/publications">Publications</nuxt-link>
           <a class="navbar-item" href="https://docs.greenhubproject.org">Docs</a>
           <a class="navbar-item" href="https://medium.com/greenhub-blog">Blog</a>
         </div>

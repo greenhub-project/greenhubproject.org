@@ -3,6 +3,7 @@
     <div class="container">
       <nav>
         <nuxt-link to="/about">About</nuxt-link>
+        <nuxt-link to="/publications">Publications</nuxt-link>
         <a href="https://docs.greenhubproject.org">Docs</a>
         <a href="https://medium.com/greenhub-blog">Blog</a>
       </nav>

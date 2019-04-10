@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <header :class="title">
-      <i class="fa fa-tree fa-5x" aria-hidden="true"></i>
+      <i class="fa fa-5x" :class="icon" aria-hidden="true"></i>
       <p>{{ title }}</p>
     </header>
   </div>
@@ -11,7 +11,14 @@
 export default {
   name: 'page-header',
 
-  props: ['title']
+  props: {
+    title: {
+      required: true
+    },
+    icon: {
+      default: 'fa-tree'
+    }
+  }
 }
 </script>
 
@@ -40,6 +47,10 @@ export default {
 
   .docs {
     background: url(~static/images/backdrop-docs.jpg) no-repeat scroll 50% / cover transparent;
+  }
+
+  .publications {
+    background: url(~static/images/backdrop-pub.jpg) no-repeat scroll 50% / cover transparent;
   }
 
   .eula {

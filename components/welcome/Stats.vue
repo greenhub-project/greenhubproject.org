@@ -22,46 +22,45 @@
 </template>
 
 <script>
-import axios from "axios";
-import numeral from "numeral";
-import status from "~/static/status.json";
+import axios from 'axios'
+import numeral from 'numeral'
 
 export default {
-  name: "stats",
+  name: 'stats',
 
-  data() {
+  data () {
     return {
-      url: this.sanitizeUrl("api/v1/public/count/"),
-      devices: "0",
-      uploads: "0"
-    };
+      url: this.sanitizeUrl('api/v1/public/count/'),
+      devices: '0',
+      uploads: '0'
+    }
   },
 
-  mounted() {
-    if (process.env.NODE_ENV === "production") {
-      this.getData();
+  mounted () {
+    if (process.env.NODE_ENV === 'production') {
+      this.getData()
     }
   },
 
   methods: {
-    sanitizeUrl(path) {
-      const server = "https://farmer.greenhubproject.org";
-      return server.substring(-1) === "/" ? server + path : server + "/" + path;
+    sanitizeUrl (path) {
+      const server = 'https://farmer.greenhubproject.org'
+      return server.substring(-1) === '/' ? server + path : server + '/' + path
     },
-    getData() {
+    getData () {
       axios
-        .get(this.url + "devices", { timeout: 8000 })
+        .get(this.url + 'devices', { timeout: 8000 })
         .then(response => {
-          this.devices = numeral(response.data).format("0.0a");
+          this.devices = numeral(response.data).format('0.0a')
         })
-        .catch(error => console.log(error));
+        .catch(error => console.log(error))
       axios
-        .get(this.url + "samples", { timeout: 20000 })
+        .get(this.url + 'samples', { timeout: 20000 })
         .then(response => {
-          this.uploads = numeral(response.data).format("0.0a");
+          this.uploads = numeral(response.data).format('0.0a')
         })
-        .catch(error => console.log(error));
+        .catch(error => console.log(error))
     }
   }
-};
+}
 </script>
