@@ -6,13 +6,13 @@
           <div class="level-item has-text-centered">
             <div>
               <p class="heading">Devices installs</p>
-              <p class="title">{{ devices }}</p>
+              <p class="title">~66k</p>
             </div>
           </div>
           <div class="level-item has-text-centered">
             <div>
               <p class="heading">Uploads received</p>
-              <p class="title">{{ uploads }}</p>
+              <p class="title">~19.5M</p>
             </div>
           </div>
         </div>
@@ -38,7 +38,7 @@ export default {
 
   mounted () {
     if (process.env.NODE_ENV === 'production') {
-      this.getData()
+      // this.getData()
     }
   },
 
