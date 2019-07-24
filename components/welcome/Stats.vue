@@ -6,13 +6,13 @@
           <div class="level-item has-text-centered">
             <div>
               <p class="heading">Devices installs</p>
-              <p class="title">~66k</p>
+              <p class="title">~77k</p>
             </div>
           </div>
           <div class="level-item has-text-centered">
             <div>
               <p class="heading">Uploads received</p>
-              <p class="title">~19.5M</p>
+              <p class="title">~22M</p>
             </div>
           </div>
         </div>
