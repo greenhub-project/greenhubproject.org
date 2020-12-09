@@ -19,6 +19,16 @@
                   <p class="has-text-grey">In Proceedings of the 16th International Conference on Mining Software Repositories, ACM, 2019</p>
                 </div>
               </li>
+              <li>
+                <div class="ml-4">
+                  <h3 class="has-text-weight-semibold">
+                    GreenHub: A Large-Scale Collaborative Dataset to Battery Consumption Analysis of Android Devices
+                    <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                  </h3>
+                  <p class="has-text-dark">Rui Pereira, Hugo Matalonga, Marco Couto, Fernando Castor, Bruno Cabral, Pedro Carvalho, Simão Melo de Sousa, João Paulo Fernandes.</p>
+                  <p class="has-text-grey">Empirical Software Engineering Journal (EMSE). Springer. (to appear)</p>
+                </div>
+              </li>
             </ul>
           </li>
         </ul>
