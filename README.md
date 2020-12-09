@@ -1,7 +1,5 @@
 # GreenHub Website
 
-[![Build Status](https://travis-ci.org/greenhub-project/greenhubproject.org.svg?branch=master)](https://travis-ci.org/greenhub-project/greenhubproject.org)
-
 This repository contains the source code for the GreenHub project website.
 
 It is built with [Nuxt.js](https://nuxtjs.org/).
