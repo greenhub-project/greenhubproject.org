@@ -5,7 +5,7 @@
     <section class="section">
       <div class="content">
         <h1 class="title">Publications</h1>
-        <ul class="is-unstyled">
+        <ul class="is-unstyled group-year">
           <li>
             <h2 class="subtitle">2020</h2>
             <ul class="is-unstyled">
@@ -15,7 +15,7 @@
                     GreenHub: A Large-Scale Collaborative Dataset to Battery Consumption Analysis of Android Devices
                     <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
                   </h3>
-                  <p class="has-text-dark">Rui Pereira, Hugo Matalonga, Marco Couto, Fernando Castor, Bruno Cabral, Pedro Carvalho, Simão Melo de Sousa, João Paulo Fernandes.</p>
+                  <p class="has-text-dark">Rui Pereira, Hugo Matalonga, Marco Couto, Fernando Castor, Bruno Cabral, Pedro Carvalho, Simão Melo de Sousa, João Paulo Fernandes</p>
                   <p class="has-text-grey">Empirical Software Engineering Journal (EMSE). Springer. (to appear)</p>
                 </div>
               </li>
@@ -74,6 +74,9 @@ ul.is-unstyled {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+ul.group-year li:nth-child(odd) {
+  margin-bottom: 2rem;
 }
 .ml-4 {
   margin-left: 1rem;
