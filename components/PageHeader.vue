@@ -47,7 +47,7 @@ export default {
     background: url(~static/images/backdrop-blog.jpg) no-repeat scroll 50% / cover transparent;
   }
 
-  .docs {
+  .dataset {
     background: url(~static/images/backdrop-docs.jpg) no-repeat scroll 50% / cover transparent;
   }
 

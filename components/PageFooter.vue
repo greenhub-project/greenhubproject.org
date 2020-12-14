@@ -44,7 +44,7 @@
       </div>
       <div class="columns">
         <div class="column">
-          <Logo margin="true">
+          <Logo :margin="true">
             <p slot="love" class="love">
               Made with ♥ in Portugal
             </p>

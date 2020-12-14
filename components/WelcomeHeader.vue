@@ -8,6 +8,9 @@
         <nuxt-link to="/publications">
           Publications
         </nuxt-link>
+        <nuxt-link to="/dataset">
+          Dataset
+        </nuxt-link>
         <a href="https://docs.greenhubproject.org">Docs</a>
         <a href="https://medium.com/greenhub-blog">Blog</a>
       </nav>

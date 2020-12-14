@@ -37,6 +37,12 @@
           >
             Publications
           </nuxt-link>
+          <nuxt-link
+            class="navbar-item"
+            to="/dataset"
+          >
+            Dataset
+          </nuxt-link>
           <a
             class="navbar-item"
             href="https://docs.greenhubproject.org"
