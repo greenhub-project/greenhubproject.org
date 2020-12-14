@@ -2,7 +2,9 @@
   <section id="extras" class="section">
     <div class="container">
       <div class="content">
-        <h2 class="title is-1 is-spaced">Start saving energy today.</h2>
+        <h2 class="title is-1 is-spaced">
+          Start saving energy today.
+        </h2>
         <p>
           Discover how can you save energy of your battery's device. Track the data history of your device.
           GreenHub collects generic data of the device's usage, later it uploads the data to the cloud.
@@ -22,7 +24,7 @@
 
 <script>
 export default {
-  name: 'extras'
+  name: 'Extras'
 }
 </script>
 

@@ -1,21 +1,14 @@
 <template>
   <div>
-    <nav-bar/>
-    <nuxt/>
-    <page-footer/>
+    <NavBar />
+    <Nuxt />
+    <PageFooter />
   </div>
 </template>
 
 <script>
-  import NavBar from '~/components/NavBar.vue'
-  import PageFooter from '~/components/PageFooter.vue'
-
-  export default {
-    components: {
-      NavBar,
-      PageFooter
-    }
-  }
+export default {
+}
 </script>
 
 <style lang="scss">

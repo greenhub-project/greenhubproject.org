@@ -1,7 +1,8 @@
-module.exports = {
-  /*
-  ** Headers of the page
-  */
+export default {
+  // Target (https://go.nuxtjs.dev/config-target)
+  target: 'static',
+
+  // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'GreenHub',
     meta: [
@@ -26,40 +27,50 @@ module.exports = {
       }
     ]
   },
-  /* 
-  ** Modules 
-  */
-  modules: ['@nuxtjs/google-gtag'],
+
+  // Global CSS (https://go.nuxtjs.dev/config-css)
+  css: [
+    { src: 'font-awesome/css/font-awesome.css', lang: 'css' }
+  ],
+
+  // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
+  plugins: [
+  ],
+
+  // Auto import components (https://go.nuxtjs.dev/config-components)
+  components: true,
+
+  // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
+  buildModules: [
+    // https://go.nuxtjs.dev/eslint
+    '@nuxtjs/eslint-module'
+  ],
+
+  // Modules (https://go.nuxtjs.dev/config-modules)
+  modules: [
+    // https://go.nuxtjs.dev/bootstrap
+    '@nuxtjs/bulma',
+    // https://go.nuxtjs.dev/axios
+    '@nuxtjs/axios',
+    '@nuxtjs/google-gtag'
+  ],
+
+  // Axios module configuration (https://go.nuxtjs.dev/config-axios)
+  axios: {},
+
   'google-gtag': {
     id: 'UA-49971884-4'
   },
-  /*
-  ** Global CSS
-  */
-  css: [
-    { src: 'bulma/css/bulma.css', lang: 'css' },
-    { src: 'font-awesome/css/font-awesome.css', lang: 'css' }
-  ],
-  /*
-  ** Customize the progress bar color
-  */
+
   loading: { color: '#3B8070' },
-  /*
-  ** Build configuration
-  */
+
+  // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-    vendor: ['numeral'],
-    /*
-    ** Run ESLint on save
-    */
-    extend (config, { isDev, isClient }) {
-      if (isDev && isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/
-        })
+    postcss: {
+      preset: {
+        features: {
+          customProperties: false
+        }
       }
     }
   }

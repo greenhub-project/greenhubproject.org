@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <page-header title="blog"/>
+    <PageHeader title="blog" />
 
     <section class="section">
       <div class="columns">
@@ -16,16 +16,10 @@
 </template>
 
 <script>
-import PageHeader from '~/components/PageHeader.vue'
-
 export default {
-  name: 'blog',
+  name: 'Blog',
 
   layout: 'page',
-
-  components: {
-    PageHeader
-  },
 
   head () {
     return {

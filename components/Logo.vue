@@ -1,15 +1,22 @@
 <template>
   <div class="has-text-centered" :class="{ 'has-margin': margin}">
-    <h1 class="title--logo"><span>Green</span>Hub</h1>
-    <slot name="love"></slot>
-    <slot name="copyright"></slot>
+    <h1 class="title--logo">
+      <span>Green</span>Hub
+    </h1>
+    <slot name="love" />
+    <slot name="copyright" />
   </div>
 </template>
 
 <script>
 export default {
-  name: 'logo',
-  props: ['margin']
+  name: 'Logo',
+  props: {
+    margin: {
+      required: false,
+      type: Boolean
+    }
+  }
 }
 </script>
 

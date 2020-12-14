@@ -1,6 +1,6 @@
 <template>
   <div id="about" class="container">
-    <page-header title="about"/>
+    <PageHeader title="about" />
 
     <section id="what-is-greenhub" class="section">
       <div class="content">
@@ -28,7 +28,9 @@
         </ul>
         <p>The main is goal is to collect data about energy consumption of Android Devices in order to have real-world data to conduct further research, while making it available to everyone interested.</p>
 
-        <h3 id="greenhub-batteryhub">GreenHub BatteryHub</h3>
+        <h3 id="greenhub-batteryhub">
+          GreenHub BatteryHub
+        </h3>
         <p>GreenHub BatteryHub is an Android battery monitor app, proving the user with useful information in real-time about their device and its battery such as instant energy consumption, temperature, voltage, battery's health, network's details, memory details, etc.</p>
         <p>It also displays statistics charts with the history of battery level, temperature and voltage.</p>
         <p>The app also collects samples of various details and uploads them to the web server periodically.</p>
@@ -39,14 +41,18 @@
           >here</a>.
         </p>
 
-        <h3 id="greenhub-farmer">GreenHub Farmer</h3>
+        <h3 id="greenhub-farmer">
+          GreenHub Farmer
+        </h3>
         <p>It is the backend component of the platform which stores all the data collect via the mobile app. There is a web app where you can find a dashboard with further statistics, charts and perform detailed searches.</p>
         <p>
           You can access GreenHub Farmer
           <a href="https://greenhub.di.ubi.pt" target="_blank">here</a>.
         </p>
 
-        <h3 id="greenhub-lumberjack">GreenHub Lumberjack</h3>
+        <h3 id="greenhub-lumberjack">
+          GreenHub Lumberjack
+        </h3>
         <p>It is a command line app for interacting with the GreenHub REST API. It has many commands to quickly query the GreenHub API.</p>
         <p>
           For detailed documentation visit
@@ -155,22 +161,15 @@
       Photo by
       <a href="https://unsplash.com/@carminu">Carmine De Fazio</a>.
     </p>
-
-    <page-footer/>
   </div>
 </template>
 
 <script>
-import PageHeader from '~/components/PageHeader.vue'
 
 export default {
-  name: 'about',
+  name: 'About',
 
   layout: 'page',
-
-  components: {
-    PageHeader
-  },
 
   head () {
     return {

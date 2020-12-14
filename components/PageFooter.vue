@@ -32,7 +32,11 @@
             </p>
             <ul class="menu-list">
               <li><a href="https://greenhub-group.slack.com/">Slack</a></li>
-              <li><nuxt-link to="/privacy">Privacy Policy</nuxt-link></li>
+              <li>
+                <nuxt-link to="/privacy">
+                  Privacy Policy
+                </nuxt-link>
+              </li>
               <li><a href="http://greenlab.di.uminho.pt/">Green Software Lab</a></li>
             </ul>
           </aside>
@@ -40,10 +44,14 @@
       </div>
       <div class="columns">
         <div class="column">
-          <logo margin="true">
-            <p class="love" slot="love">Made with ♥ in Portugal</p>
-            <p class="copyright" slot="copyright">2020 GreenHub</p>
-          </logo>
+          <Logo margin="true">
+            <p slot="love" class="love">
+              Made with ♥ in Portugal
+            </p>
+            <p slot="copyright" class="copyright">
+              2020 GreenHub
+            </p>
+          </Logo>
         </div>
       </div>
     </div>
@@ -51,14 +59,8 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  name: 'page-footer',
-
-  components: {
-    Logo
-  }
+  name: 'PageFooter'
 }
 </script>
 

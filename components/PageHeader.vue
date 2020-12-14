@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <header :class="title">
-      <i class="fa fa-5x" :class="icon" aria-hidden="true"></i>
+      <i class="fa fa-5x" :class="icon" aria-hidden="true" />
       <p>{{ title }}</p>
     </header>
   </div>
@@ -9,14 +9,16 @@
 
 <script>
 export default {
-  name: 'page-header',
+  name: 'PageHeader',
 
   props: {
     title: {
-      required: true
+      required: true,
+      type: String
     },
     icon: {
-      default: 'fa-tree'
+      default: 'fa-tree',
+      type: String
     }
   }
 }

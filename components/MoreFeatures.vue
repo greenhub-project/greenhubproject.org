@@ -7,7 +7,9 @@
         </div>
         <div class="column">
           <div class="content">
-            <h2 class="title is-1 is-spaced">More features</h2>
+            <h2 class="title is-1 is-spaced">
+              More features
+            </h2>
             <p>BatteryHub helps you keep track of your device info, providing details on the wifi, bluetooth, memory, storage, etc.</p>
             <p>Easily visualize the data history of your battery levels, with interactive charts!</p>
           </div>
@@ -19,7 +21,7 @@
 
 <script>
 export default {
-  name: 'more-features'
+  name: 'MoreFeatures'
 }
 </script>
 

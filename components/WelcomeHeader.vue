@@ -2,16 +2,24 @@
   <header class="section welcome">
     <div class="container">
       <nav>
-        <nuxt-link to="/about">About</nuxt-link>
-        <nuxt-link to="/publications">Publications</nuxt-link>
+        <nuxt-link to="/about">
+          About
+        </nuxt-link>
+        <nuxt-link to="/publications">
+          Publications
+        </nuxt-link>
         <a href="https://docs.greenhubproject.org">Docs</a>
         <a href="https://medium.com/greenhub-blog">Blog</a>
       </nav>
       <div class="columns">
         <div class="column is-half is-offset-half">
           <div class="welcome__content">
-            <h1 class="title">GreenHub</h1>
-            <p class="welcome__lead">A collaborative approach to power consumption analysis of Android devices.</p>
+            <h1 class="title">
+              GreenHub
+            </h1>
+            <p class="welcome__lead">
+              A collaborative approach to power consumption analysis of Android devices.
+            </p>
             <div class="welcome__hint">
               <p>Download our mobile app!</p>
               <h3>BatteryHub</h3>
@@ -24,8 +32,8 @@
           </div>
           <div id="welcome__scroll-down" class="welcome__navigate">
             <span class="fa-stack fa-lg">
-              <i class="fa fa-square-o fa-stack-2x"></i>
-              <i class="fa fa-arrow-down fa-stack-1x"></i>
+              <i class="fa fa-square-o fa-stack-2x" />
+              <i class="fa fa-arrow-down fa-stack-1x" />
             </span>
           </div>
         </div>
@@ -38,9 +46,10 @@
 import smoothScroll from 'smoothscroll'
 
 export default {
+  name: 'WelcomeHeader',
   mounted () {
     const scroll = this.$el.querySelector('#welcome__scroll-down')
-    scroll.addEventListener('click', event => {
+    scroll.addEventListener('click', (event) => {
       event.preventDefault()
       smoothScroll(document.querySelector('#features'), 800)
     })

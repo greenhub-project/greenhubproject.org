@@ -9,4 +9,4 @@ const animateMany = function (selector, animation = 'fadeInUp') {
   )
 }
 
-module.export = {animate, animateMany}
+module.export = { animate, animateMany }

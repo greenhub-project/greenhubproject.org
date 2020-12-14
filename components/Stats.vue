@@ -5,14 +5,22 @@
         <div class="level is-mobile">
           <div class="level-item has-text-centered">
             <div>
-              <p class="heading">Devices installs</p>
-              <p class="title">~109k</p>
+              <p class="heading">
+                Devices installs
+              </p>
+              <p class="title">
+                ~109k
+              </p>
             </div>
           </div>
           <div class="level-item has-text-centered">
             <div>
-              <p class="heading">Uploads received</p>
-              <p class="title">~28M</p>
+              <p class="heading">
+                Uploads received
+              </p>
+              <p class="title">
+                ~28M
+              </p>
             </div>
           </div>
         </div>
@@ -26,7 +34,7 @@ import axios from 'axios'
 import numeral from 'numeral'
 
 export default {
-  name: 'stats',
+  name: 'Stats',
 
   data () {
     return {
@@ -50,16 +58,14 @@ export default {
     getData () {
       axios
         .get(this.url + 'devices', { timeout: 8000 })
-        .then(response => {
+        .then((response) => {
           this.devices = numeral(response.data).format('0.0a')
         })
-        .catch(error => console.log(error))
       axios
         .get(this.url + 'samples', { timeout: 20000 })
-        .then(response => {
+        .then((response) => {
           this.uploads = numeral(response.data).format('0.0a')
         })
-        .catch(error => console.log(error))
     }
   }
 }

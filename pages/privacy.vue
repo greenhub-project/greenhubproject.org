@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <page-header title="privacy"/>
+    <PageHeader title="privacy" />
 
     <section class="section">
       <div class="columns">
@@ -16,7 +16,8 @@
             <h3>Information from the mobile app</h3>
             <p>If you <strong>install and accept the terms of use</strong>, we will periodically collect information regarding the energy consumption of your mobile device. The collection of information is determined by the following events:</p>
             <ul>
-              <li>Every time the mobile device battery level changes (increases or decreases).
+              <li>
+                Every time the mobile device battery level changes (increases or decreases).
                 Once one of these events take place, a sample of data will be gathered by the mobile app and stored locally on the mobile device.
               </li>
             </ul>
@@ -24,7 +25,9 @@
             <p>The samples collected via mobile app are sent automatically to our Services. The user may choose to upload the information manually or change on the mobile app preferences the interval of the automatic upload.</p>
             <p>Note that all data collected is purely about the device’s performance and power behavior. No personal user information is collected at any given moment. The mobile devices are identified on the Services by a randomly alphanumeric identifier used to distinguish each device in order to process the data.</p>
             <p>For a complete description of the data collected please refer to our documentation <a href="https://docs.greenhubproject.org">here</a>.</p>
-            <h3 class="why">Why do we collect this?</h3>
+            <h3 class="why">
+              Why do we collect this?
+            </h3>
             <ul>
               <li>Our strategies to analyze energy consumption behaviors rely on the use of real-world data.</li>
             </ul>
@@ -34,7 +37,9 @@
             <p>The “User Personal Information” <strong>will not be used anywhere else except on the web app</strong> with the purpose of authenticating the user. This information will not be shared on any other of the Services.</p>
             <p>"User Personal Information" is any information about one of our users which could, alone or together with other information, personally identify him or her. Information such as a user name and password, an email address and a real name are examples of “User Personal Information.”</p>
             <p>User Personal Information does not include aggregated, non-personally identifying information. We may use aggregated, non-personally identifying information to operate, improve, and optimize our website and service.</p>
-            <h3 class="why">Why do we collect this?</h3>
+            <h3 class="why">
+              Why do we collect this?
+            </h3>
             <ul>
               <li>We need your User Personal Information to create your account, and to provide the Services you request.</li>
               <li>We use your User Personal Information, specifically your email address, to identify you on the web app.</li>
@@ -44,7 +49,9 @@
             <h3>Information from website browsers</h3>
             <p>If you're <strong>just browsing the website</strong>, we collect the same basic information that most websites collect. We use common internet technologies, such as cookies and web server logs.</p>
             <p>The information we collect about all visitors to our website includes the visitor’s browser type, language preference, referring site, additional websites requested, and the date and time of each visitor request. As our website uses Google Analytics, it also collects potentially personally-identifying information like Internet Protocol (IP) addresses (see below for full details).</p>
-            <h3 class="why">Why do we collect this?</h3>
+            <h3 class="why">
+              Why do we collect this?
+            </h3>
             <p>We collect this information to better understand how our website visitors use this website, and to monitor and protect the security of the website.</p>
             <h2>What information GreenHub does not collect</h2>
             <p>We do not intentionally collect <strong>sensitive personal information</strong>, such as social security numbers, genetic data, health information, or religious information.</p>
@@ -59,10 +66,12 @@
             <p>The Services may contain links to other websites. We are not responsible for the privacy practices of other websites. We encourage users to be aware when they leave any Services to read the privacy statements of other websites that collect personally identifiable information. This Privacy Policy applies only to information collected by GreenHub via Services.</p>
             <h2>Our use of cookies and tracking</h2>
             <h3>Google Analytics</h3>
-            <p>We use Google Analytics as a third party tracking service, but we don’t use it to track you individually or collect your User Personal Information. We use Google Analytics to collect information about how our website performs and how our users, in general, navigate through and use GreenHub’s website. This helps us evaluate our users' use of the website; compile statistical reports on activity; and improve our content and website performance.
-Google Analytics gathers certain simple, non-personally identifying information over time, such as your IP address, browser type, internet service provider, referring and exit pages, timestamp, and similar data about your use of the website.
-GreenHub will not, nor will we allow any third party to, use the Google Analytics tool to track our users individually; collect any User Personal Information other than IP address; or correlate your IP address with your identity. Google provides further information about its own privacy practices and offers a <a href="https://tools.google.com/dlpage/gaoptout" target="_blank">browser add-on to opt out of Google Analytics tracking</a>.
-Certain pages on our site may set other third party cookies. For example, we may embed content, such as videos, from another site that sets a cookie. While we try to minimize these third party cookies, we can’t always control what cookies this third party content sets.</p>
+            <p>
+              We use Google Analytics as a third party tracking service, but we don’t use it to track you individually or collect your User Personal Information. We use Google Analytics to collect information about how our website performs and how our users, in general, navigate through and use GreenHub’s website. This helps us evaluate our users' use of the website; compile statistical reports on activity; and improve our content and website performance.
+              Google Analytics gathers certain simple, non-personally identifying information over time, such as your IP address, browser type, internet service provider, referring and exit pages, timestamp, and similar data about your use of the website.
+              GreenHub will not, nor will we allow any third party to, use the Google Analytics tool to track our users individually; collect any User Personal Information other than IP address; or correlate your IP address with your identity. Google provides further information about its own privacy practices and offers a <a href="https://tools.google.com/dlpage/gaoptout" target="_blank">browser add-on to opt out of Google Analytics tracking</a>.
+              Certain pages on our site may set other third party cookies. For example, we may embed content, such as videos, from another site that sets a cookie. While we try to minimize these third party cookies, we can’t always control what cookies this third party content sets.
+            </p>
             <h3>Do Not Track</h3>
             <p>The Services are not designed to respond to “do not track” signals sent by some browsers.</p>
             <h2>Changes</h2>
@@ -77,16 +86,10 @@ Certain pages on our site may set other third party cookies. For example, we may
 </template>
 
 <script>
-import PageHeader from '~/components/PageHeader.vue'
-
 export default {
-  name: 'privacy',
+  name: 'Privacy',
 
   layout: 'page',
-
-  components: {
-    PageHeader
-  },
 
   head () {
     return {
