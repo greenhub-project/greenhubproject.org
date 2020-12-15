@@ -9,7 +9,7 @@
                 Devices installs
               </p>
               <p class="title">
-                ~109k
+                ~300k
               </p>
             </div>
           </div>
@@ -19,7 +19,7 @@
                 Uploads received
               </p>
               <p class="title">
-                ~28M
+                ~49M
               </p>
             </div>
           </div>
