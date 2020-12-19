@@ -44,7 +44,10 @@
                     Hugo Matalonga, Bruno Cabral, Fernando Castor, Marco Couto, Rui Pereira, Simão Melo de Sousa and João Paulo Fernandes
                   </p>
                   <p class="has-text-grey">
-                    In Proceedings of the 16th International Conference on Mining Software Repositories, ACM, 2019
+                    In Proceedings of the IEEE/ACM 16th International Conference on Mining Software Repositories (MSR). 2019
+                  </p>
+                  <p class="has-text-weight-semibold has-text-dark">
+                    Data Showcase Special Mention Award
                   </p>
                 </div>
               </li>
