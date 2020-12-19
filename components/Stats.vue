@@ -9,7 +9,7 @@
                 Devices installs
               </p>
               <p class="title">
-                ~300k
+                ~307k
               </p>
             </div>
           </div>
