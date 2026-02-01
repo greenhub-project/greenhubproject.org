@@ -6,7 +6,7 @@
         <h1>Dataset Resources</h1>
         <p>In this page is available the latest version of the GreenHub dataset. It was generated on <strong>August 2020</strong>.</p>
         <p>The dataset contains the raw data formatted in parquet files. It is available in Kaggle for easier access:</p>
-        <p><a href="https://www.kaggle.com/hmatalonga/greenhub-dataset">GreenHub Farmer Dataset</a></p>
+        <p><a href="https://www.kaggle.com/hmatalonga/greenhub-dataset"><strong>Download Dataset</strong></a></p>
         <p>Each dataset file is paginated, therefore each part is split in small digestable files.</p>
         <p>For documentation about the schema and contents of the dataset, please refer to our paper <a href="http://greenlab.di.uminho.pt/wp-content/uploads/2019/04/GreenHubFarmerFinal.pdf">GreenHub Farmer: Real-world data for Android Energy Mining</a>.</p>
       </div>
